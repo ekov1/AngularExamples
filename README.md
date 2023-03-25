@@ -10,3 +10,6 @@
 ####  OnDestroy,
 ####  ViewChild,
 ####  ContentChild
+
+#### more-databinding
+#### databinding with a timeout interval
