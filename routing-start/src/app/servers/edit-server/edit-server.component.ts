@@ -35,12 +35,12 @@ export class EditServerComponent implements OnInit, CanComponetDeactivate {
     //   }
     // });
 
-    this.route.queryParamMap
-    .pipe(
-        map(params => params.get('myQueryParam')),
-        distinctUntilChanged()
-    )
-    .subscribe(myQueryParam => console.log(myQueryParam));
+    // this.route.queryParamMap
+    // .pipe(
+    //     map(params => params.get('myQueryParam')),
+    //     distinctUntilChanged()
+    // )
+    // .subscribe(myQueryParam => console.log(myQueryParam));
 
     this.serverName = this.server.name;
     this.serverStatus = this.server.status;
